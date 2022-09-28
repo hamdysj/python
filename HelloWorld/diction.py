@@ -43,6 +43,8 @@ print(f"V equals {v}")
 s1=set([1,3,6,4,9])
 s2=set([2,7,0,5,9,9])
 
+#end
+
 print(f'Union: {s1.union(s2)}')
 print(f'Difference S1: {s1.difference(s2)}')
 print(f'DifferenceS2: {s2.difference(s1)}')
