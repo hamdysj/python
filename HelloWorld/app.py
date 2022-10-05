@@ -1,23 +1,5 @@
 import math
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #if statement
 is_cold = False
 is_hot = False
