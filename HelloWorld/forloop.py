@@ -1,4 +1,8 @@
 #Print multiples of a number
+
+#For Loop is used to iterate over a sequence, which could be a list, tuple, array or string
+
+
 #for i in range(0,39,3): #multiples of 3
 #    print(i)
 
