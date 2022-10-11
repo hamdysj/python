@@ -72,6 +72,21 @@ class Dice:
 d1 = Dice()
 print(d1.roll())
 
+#Factory in OOP
+A = type("BaseClass",(object, ), {})
+B = type("B",(A, ),{'val':'Created Inherited Class 1'})
+C = type("B",(A, ),{'val':20})
+
+def class_creator(bool):
+    if(bool):
+        return B()
+    else:
+        return C()
+
+print(class_creator(True).val)
+print(class_creator(False).val)
+
+
 
 
 
