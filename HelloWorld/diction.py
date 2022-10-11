@@ -1,12 +1,26 @@
 #Dictionaries
 dic={} #empty dictionary
-dic={1:"Name",2:"Age",3:"Job"}
-dic1={"name":"Hamdy","age":32,"job":"DBAdmin"}
+dic={
+    1:"Name",
+    2:"Age",
+    3:"Job"
+}
+dic1={
+    "name":"Hamdy",
+    "age":32,
+    "job":"DBAdmin"
+}
 
 print(dic,dic1)
 
+
 #Nested Dictionary
-dic3 = dict({"name":{"first":"Hamdy","second":"SJ"},"age":32,"job":"DBAdmin"})
+dic3 = dict({
+    "name": {"first":"Hamdy","second":"SJ"},
+    "age":32,
+    "job":"DBAdmin"
+})
+
 print(dic3)
 
 #Adding elements
@@ -35,7 +49,7 @@ entry = 5
 v = dict.fromkeys(keys,entry)
 print(v)
 
-v.clear()
+#v.clear()
 
 print(f"V equals {v}")
 
@@ -48,5 +62,22 @@ s2=set([2,7,0,5,9,9])
 print(f'Union: {s1.union(s2)}')
 print(f'Difference S1: {s1.difference(s2)}')
 print(f'DifferenceS2: {s2.difference(s1)}')
+
+
+msg = input('Enter four numbers: ')
+phone = msg.split(" ")
+mapping = {
+    "1": "One",
+   "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five"
+}
+result = " "
+for digit in phone:
+    #result += mapping.get(digit, digit) + " " #return the value that was checked for if not in dictionary
+    result += mapping.get(digit, " ! ") + " " #returns when if value not in dictionary
+print(result)
+
 
 
