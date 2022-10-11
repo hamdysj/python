@@ -6,7 +6,9 @@ def create_file(fpath):
         f = open(fpath, 'w')
         f.write("I create this File using Python File Creation")
         f.close()
-
+        print("File Created Successfully")
+    else:
+        print("File Exist!")
 def file_path(filename):
     path = os.path.abspath(filename)
     return path
@@ -16,4 +18,3 @@ fp = file_path(docs)
 
 create_file(fp)
 
-print("File Created Successfully")
