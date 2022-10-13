@@ -1,14 +1,14 @@
 #Dictionaries
 dic={} #empty dictionary
 dic={
-    1:"Name",
-    2:"Age",
-    3:"Job"
+    1: "Name",
+    2: "Age",
+    3: "Job"
 }
 dic1={
-    "name":"Hamdy",
-    "age":32,
-    "job":"DBAdmin"
+    "name": "Hamdy",
+    "age": 32,
+    "job": "DBAdmin"
 }
 
 print(dic,dic1)
@@ -62,7 +62,7 @@ s2=set([2,7,0,5,9,9])
 print(f'Union: {s1.union(s2)}')
 print(f'Difference S1: {s1.difference(s2)}')
 print(f'DifferenceS2: {s2.difference(s1)}')
-
+s1.
 
 msg = input('Enter four numbers: ')
 phone = msg.split(" ")
@@ -75,8 +75,8 @@ mapping = {
 }
 result = " "
 for digit in phone:
-    #result += mapping.get(digit, digit) + " " #return the value that was checked for if not in dictionary
-    result += mapping.get(digit, " ! ") + " " #returns when if value not in dictionary
+    # result += mapping.get(digit, digit) + " " #return the value that was checked for if not in dictionary
+    result += mapping.get(digit, " ! ") + " "# returns when if value not in dictionary
 print(result)
 
 

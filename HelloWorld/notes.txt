@@ -1,0 +1,16 @@
+ Whenever __init.py__ is added to a file, python treats t he file like a package
+
+ sort() - used to sort list in ascending order
+
+ reverse() - used to sort list in descending order
+
+***List built in methods***
+append()
+insert(index, value)
+copy()
+remove(value)
+sort()
+pop()
+clear()
+
+
