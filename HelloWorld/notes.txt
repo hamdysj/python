@@ -14,3 +14,13 @@ pop()
 clear()
 
 
+GUI: Is the graphical representation of functions
+Lambda Functions: Are anonymous functions, They can any number of arguments but has only one expression.
+Syntax - lambda argumnet(s) : expression
+
+IIFE : Immediately Invoked Function Expression
+
+URl: https://towardsdatascience.com/lambda-functions-with-practical-examples-in-python-45934f3653a8 - Lambda Functions
+
+
+
