@@ -62,7 +62,7 @@ s2=set([2,7,0,5,9,9])
 print(f'Union: {s1.union(s2)}')
 print(f'Difference S1: {s1.difference(s2)}')
 print(f'DifferenceS2: {s2.difference(s1)}')
-s1.
+
 
 msg = input('Enter four numbers: ')
 phone = msg.split(" ")
