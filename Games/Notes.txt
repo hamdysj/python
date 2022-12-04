@@ -1,7 +1,18 @@
-All credits of this applications goes to DataFlair.
+All credits of these applications goes to DataFlair.
 
 *****************************************
 https://data-flair.training/blogs/python-tutorials-home/
 ****************************************
 
 Saying a Big Thank You for the free learning resources.
+
+
+***** My Observations / Notes *****
+Fundamental algorithm of creating an app in GUI
+
+1. import package(s)/ module(s)
+2. Create Window
+3. Create Label(s) / Entry(ies)
+4. Define Function(s)
+5. Create Button(s)
+6. Activate the window - mainloop()
