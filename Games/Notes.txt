@@ -16,3 +16,19 @@ Fundamental algorithm of creating an app in GUI
 4. Define Function(s)
 5. Create Button(s)
 6. Activate the window - mainloop()
+
+
+Libraries
+gTTS - google Text to Speech
+pyperclip - to copy text to clipboard
+playsound - to play mp3 file from GUI
+string - (ascii_lowercase/uppercase/digits/punctuation - to generate AlphaNumericCharacter value
+
+
+Tkinter Placing
+x > From left to right
+y > From top to bottom
+
+
+Modifying Address Book App - 05122022
+
