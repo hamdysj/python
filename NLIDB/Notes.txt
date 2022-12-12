@@ -1,0 +1,15 @@
+To install nltk
+Run nltk.download() from IDE
+
+
+*****Tokenizing*****
+word tokenizers, sentence tokenizers
+
+*****Lexicon and Corpora*****
+Corpora - body of text. eg. journals, speeches, writeups
+Lexicon - words and their meaning
+
+*****Investor and English Speak*****
+Investor Speak 'bull' - someone who is positive about the market
+English Speak 'bull' - an animal
+

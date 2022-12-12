@@ -1,4 +1,4 @@
-All credits of these applications goes to DataFlair.
+Disclaimer: All credits of these applications goes to DataFlair.
 
 *****************************************
 https://data-flair.training/blogs/python-tutorials-home/
