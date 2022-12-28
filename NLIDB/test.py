@@ -4,7 +4,7 @@ from Apps.entry import cur_db, con_db
 
 from Apps import entry
 
-text = "Show me all the students that has paid in arabic"
+text = "I need the payment list of students in English"
 text_token = word_tokenize(text)
 
 # Map word to corresponding word
@@ -17,19 +17,19 @@ for word in text_token:
         nlq.append('')
 
 print(nlq)
-table = ''
+tabless = ''
 column_name = ''
 value = ''
 
 # Extract table names
-for word in nlq:
-    if word in tables.keys():
-        if word == "students":
-            table = tables[word]
-        elif word == "paid" or word == "payment":
-            table = tables[word]
-        else:
-            table = tables[word]
+t1, t2, t3 = "health", "payment", "student"
+
+if t1 in nlq:
+    tabless = tables[t1]
+elif t2 in nlq:
+    tabless = tables[t2]
+else:
+    tabless = tables[t3]
 
 
 # Extract column names
@@ -45,8 +45,13 @@ for word in nlq:
 
 # sql1 = f'select * from {table} where {column_name} = {value}'
 if column_name != '':
-    sql1 = "select * from " + table + " where " + column_name + " = " + value
+    if tabless == "students":
+        sql1 = "select student_id, name, course, level  from " + tabless + " where " + column_name + " = " + value
+    elif tabless == "payments":
+        sql1 = "SELECT name, course, amount_paid, purpose FROM " + tabless + " p, students s where p.student_id = s.student_id and p." + column_name + " = " + value
+    else:
+        sql1 = "select student_id from " + tabless + " where " + column_name + " = " + value
 else:
-    sql1 = "select * from " + table
+    sql1 = "select * from " + tabless
 
 print(sql1)

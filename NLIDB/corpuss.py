@@ -1,35 +1,32 @@
 store = {
-    "need": "select",
-    "list": "select",
-    "show": "select",
-    "want": "select",
-    "get": "select",
-    "view": "select",
-    "all": "*",
-    "in": "from",
     "students": "student",
-    "history": "history",
+    "student": "student",
+    "english": "english",
     "computer": "computer",
     "arabic": "arabic",
-    "paid": "paid",
+    "paid": "payment",
     "payment": "payment",
+    "health": "health",
+    "medical": "health",
+    "sick": "health",
+    "fee": "payment"
 }
 
 tables = {
     "student": "students",
-    "paid": "payments",
-    "health": "medical"
+    "payment": "payments",
+    "health": "medical",
 }
 
 # Column Name
 dept = {
     "computer": "dept_id",
-    "history": "dept_id",
+    "english": "dept_id",
     "arabic": "dept_id"
 }
 
 values = {
     "computer": "1",
-    "history": "2",
+    "english": "2",
     "arabic": "3"
 }

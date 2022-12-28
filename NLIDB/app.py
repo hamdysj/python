@@ -4,7 +4,7 @@ from Apps.entry import cur_db, con_db
 
 from Apps import entry
 
-text = "Show all students in Computer Science"
+text = "What is the health status of all students"
 text_token = word_tokenize(text)
 
 # Map word to corresponding word

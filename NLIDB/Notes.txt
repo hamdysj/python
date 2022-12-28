@@ -13,3 +13,24 @@ Lexicon - words and their meaning
 Investor Speak 'bull' - someone who is positive about the market
 English Speak 'bull' - an animal
 
+'''studentID = i[0]
+                name = i[1]
+                level = i[2]
+                print(studentID, name, level)
+            # con_db.close()
+            print(" Success ")
+            '''
+
+NLQ:
+Show me all the students that has paid in arabic
+What is the medical history of all students LCTHUB007
+
+
+for word in nlq:
+    if word in tables.keys():
+        if word == "students":
+            table = tables[word]
+        elif word == "paid" or word == "payment":
+            table = tables[word]
+        else:
+            table = tables[word]

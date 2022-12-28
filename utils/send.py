@@ -6,14 +6,14 @@ import smtplib
 smtObj = smtplib.SMTP('smtp.gmail.com', 587)
 smtObj.ehlo()
 smtObj.starttls()
-smtObj.login("hamdysj@gmail.com","Input Password") #Password in Notes
+smtObj.login("hamdysj@gmail.com", "xjjablueezpslfii")
 sender = 'hamdysj@gmail.com'
 receiver = 'hfsulaimon@gmail.com'
 msg = '''\
-Subject: Python SMTP Email Generation.
+Subject: Python SMTP Email OTP Verification.
 
 
-This is Awesome from the stable of python Programming!!!!
+OTP!!!!
 
 '''
 smtObj.sendmail(sender,receiver,msg)
